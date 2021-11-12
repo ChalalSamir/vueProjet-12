@@ -5,9 +5,9 @@ on:
     branches: 
       - master
 
-jobs: 
-  deploy: 
-    name: deploy
+jobs:
+  ci-cd:
+    name: CI/CD
     runs-on: ubuntu-latest
 
     steps: 
@@ -33,7 +33,6 @@ jobs:
       - name: "Install dpl"
         run: gem install dpl
 
-
-      - name: "Deploy to prod"
+      - name: "Deploy to Heroku"
         run:  dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
 
