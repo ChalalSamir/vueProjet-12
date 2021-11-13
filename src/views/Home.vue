@@ -2,7 +2,7 @@
   <div class="home">
     <div class="home__divs">
       <div>
-        <h1>Boobagarre : Booba et ses ennemis</h1>
+        <h1>Boobagarre : Booba et ses ennemis theo la petasse</h1>
         <p class="home__text home__text--desktop">Booba a pu rencontrer plusieurs désacords avec certains rappeurs.<br>
   Notre blog  va vous exposer plusieurs de ses confilts.<br>
   Amusez-vous bien sur notre blog !</p>
